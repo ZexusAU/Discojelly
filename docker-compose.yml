@@ -1,0 +1,14 @@
+services:
+  discojelly:
+    image: ghcr.io/zexusau/discojelly:latest
+    build: .            # only used if you run "docker compose build" yourself
+    container_name: discojelly
+    env_file: .env      # created by the setup wizard (see README)
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true

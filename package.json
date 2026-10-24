@@ -1,0 +1,30 @@
+{
+  "name": "discojelly",
+  "version": "2.0.0",
+  "description": "Self-hosted Discord bot that posts Jellyseerr media requests and lets you approve or decline them with a button",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node setup.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "jellyseerr",
+    "overseerr",
+    "jellyfin",
+    "docker",
+    "selfhosted"
+  ],
+  "author": "Zexus",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0"
+  }
+}
