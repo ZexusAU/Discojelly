@@ -4,6 +4,8 @@ A small self-hosted Discord bot for [Jellyseerr](https://github.com/Fallenbagel/
 
 When someone requests a movie or show that needs approval, Discojelly posts it in a Discord channel with the poster, description and who asked for it. Authorised people click **Approve** or **Decline**, and the bot tells Jellyseerr. The message updates to show the result and who made the call.
 
+![Discojelly request message with Approve and Decline buttons](docs/screenshot.png)
+
 - Poster, title, description, media type and requester shown on every request
 - Approve / Decline buttons, restricted to the people you choose
 - Optional "Open in Jellyseerr" button
