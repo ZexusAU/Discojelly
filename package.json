@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node src/index.js",
     "setup": "node setup.js",
-    "test": "node --test \"test/*.test.js\""
+    "test": "node --test"
   },
   "keywords": [
     "discord",
