@@ -1,6 +1,6 @@
 # Discojelly
 
-A small self-hosted Discord bot for [Jellyseerr](https://github.com/Fallenbagel/jellyseerr) (also works with Overseerr).
+A small self-hosted Discord bot for [Seerr](https://github.com/seerr-team/seerr), the request manager that Jellyseerr and Overseerr merged into. Tested on Seerr. It uses the API that Jellyseerr and Overseerr share, so it should work with those too. Anywhere this guide says "Jellyseerr", read "Seerr".
 
 When someone requests a movie or show that needs approval, Discojelly posts it in a Discord channel with the poster, description and who asked for it. Authorised people click **Approve** or **Decline**, and the bot tells Jellyseerr. The message updates to show the result and who made the call.
 
